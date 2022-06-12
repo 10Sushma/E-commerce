@@ -1,0 +1,42 @@
+.products-container {
+    width: 100vw;
+   min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 5px;
+    img {
+        width: 250px;
+        height: 250px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.1);
+          }
+      }
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px 3px;
+        // border: 1px solid blueviolet;
+      }
+      
+      .card-description {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        // margin-bottom: 1px;
+        .details{
+            margin-bottom: -5px;
+        }
+      }
+      
+  
+  }
+  
+  
+  
+  
+ 
